@@ -1,0 +1,107 @@
+
+html{
+    background-image: url("halfbodymakima.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#p1{
+    background-color: rgba(168, 168, 168, 0.5);
+    font-family: Courier;
+    color: white;
+    font-size: 5mm;
+    font-weight: 400;
+}
+#iframe1{
+    
+}
+.container{
+    list-style-type: none;
+    padding: 2px;
+    background-color: #3d3d45;
+    overflow: hidden;
+    margin: 8px 0px;
+}
+.container li a{
+    float: right;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    min-width: 100px;
+}
+.link:hover{
+    background-color: #121214;
+}
+#chihara{
+    margin: 20px 0px 0px 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -O-transition: all 500ms ease;
+}
+#chihara:hover{
+    padding: 40px 40px;
+}
+#p2{
+    background-color: rgba(168, 168, 168, 0.5);
+    font-family: Courier;
+    color: white;
+    font-size: 5mm;
+    font-weight: 400;
+    margin-left: 400px;
+    display: inline-block;
+}
+#fku{
+    margin: 20px 0px 0px 300px;
+    width: 110%;
+    border-radius: 10px;
+    animation: pink-fuck;
+    animation-duration: 1ms;
+    animation-iteration-count: infinite;
+}
+#discord{
+    /*
+    color: rgb(114,137,218);
+    */
+    color: white;
+    background-color: rgb(114,137,218);
+    border-radius: 10px;
+    border: 10px solid rgb(114,137,218);
+}
+#yt{
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+}
+#red{
+    color: rgb(255, 69, 0);
+    background-color: white;
+    border-radius: 40px;
+}
+/*.icons{
+    margin: 100px 100px 10px 100px;
+    align-items: center;
+    display: block;
+}*/
+@keyframes pink-fuck{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
